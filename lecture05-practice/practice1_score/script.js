@@ -18,6 +18,9 @@ button.addEventListener("click", () => {
 // ===== 上記は さわらなくて OK =====
 // ===== ここから下を AI に書いてもらう =====
 function judge(score) {
-  // AI がここに処理を書く
-  
+  if (score >= 60) {
+    show("合格");
+  } else {
+    show("不合格");
+  }
 }
